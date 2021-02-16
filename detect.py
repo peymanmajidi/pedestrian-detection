@@ -14,7 +14,7 @@ import cv2
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-# loop over the image paths
+# single photo
 imagePath = "./images/1.jpg"
 
 
